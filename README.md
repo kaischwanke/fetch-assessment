@@ -26,7 +26,7 @@ go test -tags=integration ./...
 ---
 
 ### Code Structure
-The models for this project have been auto-generated using `oapi-codegen`. It can be regenerated from the spec using ```tools.go```
+The models for this project have been auto-generated using `oapi-codegen`. It can be regenerated from the spec using `tools.go`
 The codebase is divided into separate packages, and unit tests are available for nearly all of them.
 ---
 
@@ -51,4 +51,4 @@ Note: This solution does not include considerations for API security.
 
 Due to new pricing requirements for Postman, no Postman collection is included at this time.
 
-For production readiness, a logging library should be added, instead of using ```fmt.Printf```
+For production readiness, a logging library should be added, instead of using `fmt.Printf`
