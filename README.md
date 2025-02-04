@@ -29,6 +29,8 @@ go test -tags=integration ./...
 The models for this project have been auto-generated using `oapi-codegen`. It can be regenerated from the spec using `tools.go`
 The codebase is divided into separate packages, and unit tests are available for nearly all of them.
 
+I have defined a single function for each points rule. Is allows easy testing and debugging. It also makes it easier to add new rules to the logic, or remove exising rules.
+
 ---
 
 ### Performance Considerations
