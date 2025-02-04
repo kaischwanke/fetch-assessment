@@ -28,6 +28,7 @@ go test -tags=integration ./...
 ### Code Structure
 The models for this project have been auto-generated using `oapi-codegen`. It can be regenerated from the spec using `tools.go`
 The codebase is divided into separate packages, and unit tests are available for nearly all of them.
+
 ---
 
 ### Performance Considerations
